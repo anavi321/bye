@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/riley');
+@import url('https://fonts.cdnfonts.com/css/lovelyn');
+body {
+  
+    
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E2B6CF;
+
+    
+}
+
+header {
+  background-color: #242038;
+  color: #EBF5EE;
+  text-align: center;
+  padding: 10px;
+  font-family: 'lovelyn', cursive;
+  font-size: 30px;
+  
+}
+
+main {
+  padding: 30px;
+  font-family: 'Riley', cursive;
+  font-size: 40px;
+}
+
+.content {
+  text-align: center;
+}
+
+p {
+  color: #457E87; 
+  font-size: 30px;
+   text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+img {
+  max-width: auto;
+  height: auto;
+}
+button {
+  background-color: #7209b7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#container {
+    min-width: 30%;
+    min-height: 30%;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 5px 2px black;
+    border-radius: 20px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 10px;
+    font-family: "Poppins",sans-serif;
+}
+.fa-heart {
+    color: rgb(60, 0, 60);
+    font-size: 25px;
+    position: absolute;
+    animation:  heartMove linear 1;
+    top: -10vh;
+    z-index: 0;
+}
+
+@keyframes heartMove {
+    0%{
+        transform: translateY(-10vh) ;
+    }
+    100%{
+        transform: translateY(110vh) ;
+    }
+}
